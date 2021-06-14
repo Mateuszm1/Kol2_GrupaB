@@ -1,0 +1,11 @@
+<div class="card-group">
+<div class="card" style="width: 20rem; height: 26rem">
+	<img [src]="image" >
+  <div class="card-body">
+    <h3 class="card-title">{{title}}</h3>
+    <p>{{id}}  {{text}}></p>
+	<a [routerLink]="['/forum/'+id]" class="btn btn-secondary">Go to details</a>
+  </div>
+</div>
+</div>
+
